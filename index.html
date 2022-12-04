@@ -1,462 +1,662 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org.TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W#C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="Content-Type" content="tet/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text.html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Transitional Email</title>
-    <style>
+    <title>Transactional Email</title>
+    <style type="text/css">
       body {
         padding: 0;
         margin: 0;
+        background-color: #fff;
         font-family: Arial, Helvetica, sans-serif;
       }
-
-      @media screen and (max-width: 600px) {
-        .item {
-          padding: 0px 0 10px 10px !important;
-        }
-
-        .price {
-          padding: 0 0 0 210px !important;
-        }
-        .space {
-          width: 3% !important;
-        }
-        .word_space {
-          width: 47% !important;
-        }
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+      img {
+        border: 0;
       }
     </style>
+    <!--[if (gte mso 9) | (IE)]>
+      <style type="text/css">
+        table {
+          border-collapse: collapse !important;
+        }
+      </style>
+    <![endif]-->
   </head>
-  <body>
-    <center>
-      <!-- Email Container -->
-      <table
-        class="main"
-        width="100%"
-        align="center"
-        cellpadding="0"
-        cellspacing="0"
-        border="0"
+  <body style="margin: 0; padding: 0; min-width: 100%; background-color: #fff">
+    <!--[if (gte mso 9) | (IE)]>
+      <style type="text/css">
+        body {
+          background-color: #d3d3d3 !important;
+        }
+        body,
+        table,
+        td,
+        p,
+        a {
+          font-family: Arial, Helvetica, sans-serif !important;
+        }
+      </style>
+    <![endif]-->
+    <!-- ===== Email Container ===== -->
+    <center style="width: 100%; table-layout: fixed; background-color: #fff">
+      <!-- ===== Drop Shadow ===== -->
+      <div
         style="
-          background-image: url(./Images/BG.jpg);
-          padding: 200px 30px 40px;
           max-width: 600px;
+          background: #fafdfe;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         "
       >
-        <tr>
-          <td>
-            <!-- Content Container -->
-            <table
-              width="100%"
-              cellspacing="0"
-              cellpadding="0"
-              align="center"
-              border="0"
-              bgcolor="#fbcdc3"
-              style="padding: 20px"
-            >
-              <tr>
-                <td>
-                  <table
-                    width="100%"
-                    style="padding: 20px 20px 0"
-                    bgcolor="#fff"
-                  >
-                    <!-- Logo and Header -->
-                    <tr>
-                      <td align="center">
-                        <img
-                          src="./Images/FP Logo.png"
-                          alt="Food Panda Logo"
-                          style="max-width: 440px; width: 100%"
-                        />
-                      </td>
-                    </tr>
-                    <!-- Logo and Header -->
-                    <!-- Order Info -->
-                    <tr>
-                      <td align="center">
-                        <h2
-                          style="
-                            color: #d70f64;
-                            text-transform: capitalize;
-                            padding: 40px 0 0 0;
-                            font-size: 25px;
-                          "
-                        >
-                          order info
-                        </h2>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table
-                    width="100%"
-                    cellspacing="0"
-                    cellpadding="0"
-                    border="0"
-                    bgcolor="#fff"
-                    style="padding: 20px"
-                  >
-                    <tr>
-                      <td width="45%" align="left">
-                        <h3 style="margin: 0; padding: 10px 0">Summary:</h3>
-                        <p style="margin: 0; padding: 5px 0">
-                          <span style="color: #d70f64">Order #</span>: t4lq-pplw
-                        </p>
-                        <p style="margin: 0; padding: 5px 0">
-                          <span style="color: #d70f64">Order time</span>:
-                        </p>
-                        <p style="margin: 0; padding: 5px 0">
-                          2022-10-22 19:28:53
-                        </p>
-                      </td>
-                      <td
-                        class="space"
-                        width="15%"
-                        style="
-                          display: inline-block;
-                          max-width: 20px;
-                          width: 100%;
-                        "
-                      >
-                        &nbsp;
-                      </td>
-                      <td class="word_space" width="40%" align="left">
-                        <h3 style="margin: 0; padding: 10px 0px">
-                          Delivery Address:
-                        </h3>
-                        <p style="margin: 0; padding: 5px 0">Brandon Lester</p>
-                        <p style="margin: 0; padding: 5px 0">
-                          Phratamnak Unixx
-                        </p>
-                        <p style="margin: 0; padding: 5px 0">
-                          Pattaya, Chon Buri
-                        </p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <!-- Order Info -->
-              <!-- ===== HR ===== -->
-              <tr>
-                <td>
-                  <table
-                    width="100%"
-                    cellspacing="0"
-                    cellpadding="0"
-                    align="center"
-                    border="0"
-                    bgcolor="#fff"
-                    style="padding: 40px 20px 20px"
-                  >
-                    <tr>
-                      <td>
-                        <hr style="border-top: 2px #d70f64 dotted" />
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <!-- ===== HR ===== -->
-              <!-- ===== Order Tracking Sections =====-->
-              <tr>
-                <td>
-                  <table
-                    width="100%"
-                    cellspacing="0"
-                    cellpadding="0"
-                    align="center"
-                    border="0"
-                    bgcolor="#fff"
-                    style="padding: 0 20px"
-                  >
-                    <tr>
-                      <td align="left">
-                        <h3>Hey Brandon,</h3>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>
-                          Well chosen! Your order from
-                          <a
-                            href="#"
-                            style="text-decoration: none; color: #d70f64"
-                            >Easy Health</a
-                          >
-                          is on its way. If there's anything else you need,
-                          please head over to the
-                          <a
-                            href="#"
-                            style="text-decoration: none; color: #d70f64"
-                            ><br />
-                            Help Center</a
-                          >
-                          for assistance.
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center">
-                        <a
-                          class="btn"
-                          href="#"
-                          style="
-                            text-decoration: none;
-                            background-color: #d70f64;
-                            color: #fff;
-                            text-transform: uppercase;
-                            padding: 20px 40px;
-                            border-radius: 25px;
-                            text-align: center;
-                            display: inline-block;
-                            margin: 10px 0 30px;
-                          "
-                          >track your order</a
-                        >
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p>
-                          Until next time,
-                          <br />
-                          <a
-                            href="#"
-                            style="text-decoration: none; color: #d70f64"
-                            >Your foodpanda team</a
-                          >
-                        </p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <!-- ===== Order Tracking Sections =====-->
-              <!-- ===== Item Area ===== -->
-              <tr>
-                <td>
-                  <table
-                    width="100%"
-                    cellspacing="0"
-                    cellpadding="0"
-                    align="center"
-                    border="0"
-                    bgcolor="#fff"
-                    style="padding: 15px 20px 30px"
-                  >
-                    <tr>
-                      <td>
-                        <div
-                          class="item"
-                          style="
-                            background-color: #c1c1c1;
-                            margin: 20px 0px;
-                            padding: 10px 20px;
-                            border-radius: 25px;
-                          "
-                        >
-                          <p
+        <!-- Preheader (Remove Comment)-->
+        <div
+          style="
+            font-size: 0px;
+            color: #fafdfe;
+            line-height: 1px;
+            mso-line-height-rule: exactly;
+            display: none;
+            max-width: 0px;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all;
+          "
+        >
+          <!--Add Preheader Text Here (Remove Comment)-->
+          <p>Here is your receipt! Thanks and come again</p>
+        </div>
+        <!-- End Preheader (Remove Comment)-->
+        <!--[if (gte mso 9) | (IE)]>
+        <table
+          width="600"
+          align="center"
+          style="border-spacing: 0; color: #565656"
+          role="presentation"
+        >
+         <tr>
+            <td style="padding; 0">
+      <![endif]-->
+        <!-- ===== Email Content Container ===== -->
+        <table
+          width="100%"
+          align="center"
+          cellspacing="0"
+          cellpadding="0"
+          border="0"
+          bgcolor="#fff"
+          style="
+            font-family: Arial, Helvetica, sans-serif;
+            border-spacing: 0;
+            background-image: url(./Images/BG.jpg);
+            padding: 200px 30px 40px;
+            max-width: 600px;
+          "
+          role="presentation"
+        >
+          <!-- ===== Content Container ===== -->
+          <tr>
+            <td>
+              <table
+                width="100%"
+                role="presentation"
+                cellpadding="0"
+                cellspacing="0"
+                align="center"
+                border="0"
+                bgcolor="#fbcdc3"
+                style="padding: 20px"
+              >
+                <tr>
+                  <td>
+                    <table
+                      width="100%"
+                      style="padding: 20px 20px"
+                      bgcolor="#fff"
+                      role="presentation"
+                    >
+                      <!-- ===== Logo & Header ===== -->
+                      <tr>
+                        <td align="center">
+                          <a href="#">
+                            <img
+                              src="./Images/FP Logo.png"
+                              alt="Food Panda Logo"
+                              title="Food Panda Logo"
+                              style="
+                                max-width: 440px;
+                                width: 100%;
+                                padding-top: 10px;
+                              "
+                            />
+                          </a>
+                        </td>
+                      </tr>
+                      <!-- ===== End Logo & Header ===== -->
+                      <!-- ===== Order Information ===== -->
+                      <tr>
+                        <td align="center">
+                          <h2
                             style="
-                              color: #616161;
-                              padding: 0 0 0 0;
-                              margin: 0;
-                              display: inline-block;
+                              color: #d70f64;
+                              text-transform: capitalize;
+                              padding: 40px 0 0 0;
+                              font-size: 25px;
                             "
                           >
-                            Qty | Item
-                          </p>
-                          <p
-                            class="price"
-                            style="
-                              color: #616161;
-                              padding: 0 0 0 300px;
-                              margin: 0;
-                              display: inline-block;
-                            "
+                            Order Info
+                          </h2>
+                        </td>
+                      </tr>
+                      <!-- ===== End Order Information ===== -->
+                      <!-- ===== Order Information Table ===== -->
+                      <tr>
+                        <td>
+                          <table
+                            width="100%"
+                            cellspacing="0"
+                            cellpadding="0"
+                            border="0"
+                            bgcolor="#fff"
+                            style="padding: 20px"
+                            role="presentation"
                           >
-                            Price
-                          </p>
-                        </div>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <table
-                    width="100%"
-                    cellspacing="0"
-                    cellpadding="0"
-                    align="center"
-                    border="0"
-                    bgcolor="#fff"
-                    style="padding: 0 20px"
-                  >
-                    <tr>
-                      <td
-                        width="80%"
-                        align="left
-                      "
-                      >
-                        <p
-                          class="font"
-                          style="display: inline-block; font-size: 14px"
-                        >
-                          1 X SPRING ROLL AVOCADO
-                        </p>
-                      </td>
-                      <td width="20%" align="center">
-                        <p
-                          class="font"
-                          style="display: inline-block; font-size: 14px"
-                        >
-                          ฿ 169.00
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td width="80%" align="left">
-                        <p
-                          class="font"
-                          style="display: inline-block; font-size: 14px"
-                        >
-                          1 X BLUEBERRY SMOOTHIE
-                        </p>
-                      </td>
-                      <td width="20%" align="center">
-                        <p
-                          class="font"
-                          style="display: inline-block; font-size: 14px"
-                        >
-                          ฿ 280.00
-                        </p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <!-- ===== Item Area ===== -->
-              <!-- ===== HR ===== -->
-              <tr>
-                <td>
-                  <table
-                    width="100%"
-                    cellspacing="0"
-                    cellpadding="0"
-                    align="center"
-                    border="0"
-                    bgcolor="#fff"
-                    style="padding: 20px"
-                  >
-                    <tr>
-                      <td>
-                        <hr style="border-top: 2px #d70f64 dotted" />
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <!-- ===== HR ===== -->
-              <!-- ===== Pricing Area ===== ?? 3 Columns -->
-              <tr>
-                <td>
-                  <table
-                    width="100%"
-                    cellspacing="0"
-                    cellpadding="0"
-                    align="center"
-                    border="0"
-                    bgcolor="#fff"
-                    style="padding: 30px 20px"
-                  >
-                    <tr>
-                      <td width="50%"></td>
-                      <td width="25%">
-                        <p class="font" style="margin: 0; padding: 0">
-                          Subtotal:
-                        </p>
-                        <p class="font" style="margin: 0; padding: 0">
-                          Del. Fee:
-                        </p>
-                        <p
-                          class="font"
-                          style="font-weight: bold; margin: 0; padding: 0"
-                        >
-                          Total:
-                        </p>
-                        <p class="font" style="margin: 0; padding: 0">
-                          7% Tax:
-                        </p>
-                      </td>
-                      <td width="25%">
-                        <p class="font" style="margin: 0">฿ 449.00</p>
-                        <p class="font" style="padding: 0; margin: 0">
-                          ฿ 15.00
-                        </p>
-                        <p class="special font" style="padding: 0; margin: 0">
-                          ฿
-                          <span style="color: #d70f64; font-weight: bold"
-                            >470.43</span
+                            <tr>
+                              <td width="40%" align="left">
+                                <h3
+                                  style="margin: 0; padding: 0; font-size: 15px"
+                                >
+                                  Summary:
+                                </h3>
+                                <p
+                                  style="
+                                    margin: 0;
+                                    padding: 0;
+                                    font-size: 13px;
+                                    white-space: nowrap;
+                                  "
+                                >
+                                  <span style="color: #d70f64">Order #</span>:
+                                  t4lq-pplw
+                                </p>
+                                <p
+                                  style="
+                                    margin: 0;
+                                    padding: 0;
+                                    font-size: 13px;
+                                    white-space: nowrap;
+                                  "
+                                >
+                                  <span style="color: #d70f64">Order time</span
+                                  >:
+                                </p>
+                                <p
+                                  style="
+                                    margin: 0;
+                                    padding: 0;
+                                    font-size: 13px;
+                                    white-space: nowrap;
+                                  "
+                                >
+                                  2022-10-22 19:28:53
+                                </p>
+                              </td>
+                              <td
+                                width="20%"
+                                style="
+                                  display: inline-block;
+                                  max-width: 20px;
+                                  width: 100%;
+                                "
+                              >
+                                &nbsp;
+                              </td>
+                              <td width="40%" align="left">
+                                <h3
+                                  style="margin: 0; padding: 0; font-size: 15px"
+                                >
+                                  Address:
+                                </h3>
+                                <p
+                                  style="
+                                    margin: 0;
+                                    padding: 0;
+                                    font-size: 13px;
+                                    white-space: nowrap;
+                                  "
+                                >
+                                  Brandon Lester
+                                </p>
+                                <p
+                                  style="
+                                    margin: 0;
+                                    padding: 0;
+                                    font-size: 13px;
+                                    white-space: nowrap;
+                                  "
+                                >
+                                  Phratamnak Unixx
+                                </p>
+                                <p
+                                  style="
+                                    margin: 0;
+                                    padding: 0;
+                                    font-size: 13px;
+                                    white-space: nowrap;
+                                  "
+                                >
+                                  Pattaya, Chon Buri
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- ===== End Order Information Table ===== -->
+                      <!-- ===== HR ===== -->
+                      <tr>
+                        <td>
+                          <table
+                            width="100%"
+                            cellspacing="0"
+                            cellpadding="0"
+                            align="center"
+                            border="0"
+                            bgcolor="#fff"
+                            role="presentation"
+                            style="padding: 40px 20px 20px"
                           >
-                        </p>
-                        <p class="font" style="padding: 0; margin: 0">
-                          ฿ 31.43
-                        </p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <!-- ===== Pricing Area ===== ?? 3 Columns -->
-              <!-- ===== FOOTER ===== -->
-              <tr>
-                <td>
-                  <table
-                    width="100%"
-                    cellspacing="0"
-                    cellpadding="0"
-                    align="center"
-                    border="0"
-                    bgcolor="#dedede"
-                    style="padding: 0 50px 20px; margin: 25px 0 0 0"
-                  >
-                    <tr>
-                      <td align="center">
-                        <p>Privacy | Terms and Conditions</p>
-                        <p>
-                          No. 6, 11th and 12th floors, O-NES Tower, Soi
-                          Sukhumvit 6, Klongtoey Sub-district, Klongtoey
-                          District, Bangkok 10110
-                        </p>
-                        <a
-                          style="
-                            color: #d70f64;
-                            text-decoration: none;
-                            display: block;
-                          "
-                          >© 2022 foodpanda</a
-                        >
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <!-- ===== FOOTER ===== -->
-            </table>
-            <!-- Content Container -->
-          </td>
-        </tr>
-      </table>
-      <!-- Email Container -->
+                            <tr>
+                              <td>
+                                <hr style="border-top: 2px #d70f64 dotted" />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- ===== End HR ===== -->
+                      <!-- ===== Order Tracking Sections =====-->
+                      <tr>
+                        <td>
+                          <table
+                            width="100%"
+                            cellspacing="0"
+                            cellpadding="0"
+                            align="center"
+                            border="0"
+                            bgcolor="#fff"
+                            role="presentation"
+                            style="padding: 0 20px"
+                          >
+                            <tr>
+                              <td align="left">
+                                <h3>Hey Brandon,</h3>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p>
+                                  Well chosen! Your order from
+                                  <a
+                                    href="#"
+                                    style="
+                                      text-decoration: none;
+                                      color: #d70f64;
+                                    "
+                                    >Easy Health</a
+                                  >
+                                  is on its way. If there's anything else you
+                                  need, please head over to the
+                                  <a
+                                    href="#"
+                                    style="
+                                      text-decoration: none;
+                                      color: #d70f64;
+                                    "
+                                    ><br />
+                                    Help Center</a
+                                  >
+                                  for assistance.
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center">
+                                <a
+                                  class="btn"
+                                  href="#"
+                                  style="
+                                    text-decoration: none;
+                                    background-color: #d70f64;
+                                    color: #fff;
+                                    text-transform: uppercase;
+                                    padding: 20px 40px;
+                                    border-radius: 25px;
+                                    text-align: center;
+                                    display: inline-block;
+                                    margin: 10px 0 30px;
+                                  "
+                                  >track your order</a
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p>
+                                  Until next time,
+                                  <br />
+                                  <a
+                                    href="#"
+                                    style="
+                                      text-decoration: none;
+                                      color: #d70f64;
+                                    "
+                                    >Your foodpanda team</a
+                                  >
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- ===== End Order Tracking Sections =====-->
+                      <!-- ===== Item Area ===== -->
+                      <!-- ===== Grey Container ===== -->
+                      <tr>
+                        <td>
+                          <table
+                            width="100%"
+                            cellspacing="0"
+                            cellpadding="0"
+                            align="center"
+                            border="0"
+                            bgcolor="#fff"
+                            role="presentation"
+                            style="padding: 15px 20px 30px"
+                          >
+                            <tr>
+                              <td>
+                                <div
+                                  style="
+                                    background-color: #c1c1c1;
+                                    margin: 20px 0;
+                                    padding: 10px 20px;
+                                    border-radius: 25px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                  "
+                                >
+                                  <p
+                                    style="
+                                      color: #616161;
+                                      padding: 0;
+                                      margin: 0 auto;
+                                      text-align: left;
+                                      display: inline-block;
+                                      width: 50%;
+                                    "
+                                  >
+                                    Qty | Item
+                                  </p>
+                                  <p
+                                    style="
+                                      color: #616161;
+                                      padding: 0;
+                                      margin: 0 auto;
+                                      display: inline-block;
+                                      text-align: end;
+                                      width: 50%;
+                                    "
+                                  >
+                                    Price
+                                  </p>
+                                </div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- ===== End Grey Container ===== -->
+                      <!-- ===== Order Items ===== -->
+                      <tr>
+                        <td>
+                          <table
+                            width="100%"
+                            cellspacing="0"
+                            cellpadding="0"
+                            align="center"
+                            border="0"
+                            bgcolor="#fff"
+                            style="padding: 0 20px"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td
+                                width="75%"
+                                align="left"
+                                style="padding-left: 10px"
+                              >
+                                <p
+                                  class="font"
+                                  style="display: inline-block; font-size: 12px"
+                                >
+                                  1 X SPRING ROLL AVOCADO
+                                </p>
+                              </td>
+                              <td
+                                width="25%"
+                                align="center"
+                                style="padding-left: 10px"
+                              >
+                                <p
+                                  class="font"
+                                  style="
+                                    display: inline-block;
+                                    font-size: 12px;
+                                    text-align: center;
+                                    white-space: nowrap;
+                                  "
+                                >
+                                  ฿ 169.00
+                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td
+                                width="75%"
+                                align="left"
+                                style="padding-left: 10px"
+                              >
+                                <p
+                                  class="font"
+                                  style="display: inline-block; font-size: 12px"
+                                >
+                                  1 X BLUEBERRY SMOOTHIE
+                                </p>
+                              </td>
+                              <td
+                                width="$25%"
+                                align="center"
+                                style="padding-left: 10px"
+                              >
+                                <p
+                                  class="font"
+                                  style="
+                                    display: inline-block;
+                                    font-size: 12px;
+                                    text-align: center;
+                                    white-space: nowrap;
+                                  "
+                                >
+                                  ฿ 280.00
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- ===== End Order Items ===== -->
+                      <!-- ===== End Item Area ===== -->
+                      <!-- ===== HR ===== -->
+                      <tr>
+                        <td>
+                          <table
+                            width="100%"
+                            cellspacing="0"
+                            cellpadding="0"
+                            align="center"
+                            border="0"
+                            bgcolor="#fff"
+                            style="padding: 20px"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <hr style="border-top: 2px #d70f64 dotted" />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- ===== End HR ===== -->
+                      <!-- ===== Pricing Area ===== ?? 3 Columns -->
+                      <tr>
+                        <td>
+                          <table
+                            width="100%"
+                            cellspacing="0"
+                            cellpadding="0"
+                            align="center"
+                            border="0"
+                            bgcolor="#fff"
+                            style="padding: 30px 20px"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td width="50%"></td>
+                              <td width="25%" align="left">
+                                <p
+                                  style="margin: 0; padding: 0; font-size: 13px"
+                                >
+                                  Subtotal:
+                                </p>
+                                <p
+                                  style="margin: 0; padding: 0; font-size: 13px"
+                                >
+                                  Del. Fee:
+                                </p>
+                                <p
+                                  style="
+                                    font-weight: bold;
+                                    margin: 0;
+                                    padding: 0;
+                                    font-size: 13px;
+                                  "
+                                >
+                                  Total:
+                                </p>
+                                <p
+                                  style="margin: 0; padding: 0; font-size: 13px"
+                                >
+                                  7% Tax:
+                                </p>
+                              </td>
+                              <td width="25%" align="left">
+                                <p
+                                  style="padding: 0; margin: 0; font-size: 13px"
+                                >
+                                  ฿ 449.00
+                                </p>
+                                <p
+                                  style="padding: 0; margin: 0; font-size: 13px"
+                                >
+                                  ฿ 15.00
+                                </p>
+                                <p
+                                  style="padding: 0; margin: 0; font-size: 13px"
+                                >
+                                  ฿
+                                  <span
+                                    style="
+                                      color: #d70f64;
+                                      font-weight: bold;
+                                      font-size: 13px;
+                                    "
+                                    >470.43</span
+                                  >
+                                </p>
+                                <p
+                                  style="padding: 0; margin: 0; font-size: 13px"
+                                >
+                                  ฿ 31.43
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- ===== Pricing Area ===== ?? 3 Columns -->
+                      <!-- ===== FOOTER ===== -->
+                      <tr>
+                        <td>
+                          <table
+                            role="presentation"
+                            width="100%"
+                            cellspacing="0"
+                            cellpadding="0"
+                            align="center"
+                            border="0"
+                            bgcolor="#dedede"
+                            style="padding: 0 50px 20px; margin: 25px 0 0 0"
+                          >
+                            <tr>
+                              <td align="center">
+                                <p>Privacy | Terms and Conditions</p>
+                                <p>
+                                  No. 6, 11th and 12th floors, O-NES Tower, Soi
+                                  Sukhumvit 6, Klongtoey Sub-district, Klongtoey
+                                  District, Bangkok 10110
+                                </p>
+                                <a
+                                  style="
+                                    color: #d70f64;
+                                    text-decoration: none;
+                                    display: block;
+                                  "
+                                  >© 2022 foodpanda</a
+                                >
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- ===== FOOTER ===== -->
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- ===== Content Container ===== -->
+        </table>
+        <!-- ===== Email Content Container ===== -->
+      </div>
+      <!-- ===== Drop Shadow ===== -->
+      <!--[if (gte mso 9) | (IE)]>
+    
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
     </center>
+    <!-- ===== Email Container ===== -->
   </body>
 </html>
