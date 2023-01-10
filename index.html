@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Transactional Email</title>
     <style type="text/css">
-      body {
-        padding: 0;
-        margin: 0;
-        background-color: #fff;
-        font-family: Arial, Helvetica, sans-serif;
-      }
       table {
         border-spacing: 0;
       }
@@ -21,33 +15,37 @@
       img {
         border: 0;
       }
+      @media (max-width: 399.98px) {
+        .padding {
+          padding-top: 0 !important;
+        }
+        .info {
+          padding: 0 0 15px 0;
+          display: block;
+          text-align: left;
+          margin: 0;
+        }
+        .right {
+          font-size: 11px !important;
+        }
+        .left {
+          font-size: 10px !important;
+          padding-right: 15px !important;
+        }
+      }
     </style>
-    <!--[if (gte mso 9) | (IE)]>
-      <style type="text/css">
-        table {
-          border-collapse: collapse !important;
-        }
-      </style>
-    <![endif]-->
   </head>
-  <body style="margin: 0; padding: 0; width: 100%; background-color: #fff">
-    <!--[if (gte mso 9) | (IE)]>
-      <style type="text/css">
-        body {
-          background-color: #d3d3d3 !important;
-        }
-        body,
-        table,
-        td,
-        p,
-        a {
-          font-family: Arial, Helvetica, sans-serif !important;
-        }
-      </style>
-    <![endif]-->
+  <body
+    style="
+      padding: 0;
+      margin: 0;
+      background-color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+    "
+  >
     <!-- ===== Email Container ===== -->
-    <center style="width: 100%; background-color: #fff">
-      <!-- ===== Drop Shadow ===== -->
+    <center style="width: 100%; background-color: #fff; padding-bottom: 40px">
+      <!--===== Drop Shadow ===== -->
       <div
         style="
           max-width: 600px;
@@ -55,43 +53,12 @@
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         "
       >
-        <!-- Preheader (Remove Comment)-->
-        <div
-          style="
-            font-size: 0px;
-            color: #fafdfe;
-            line-height: 1px;
-            mso-line-height-rule: exactly;
-            display: none;
-            max-width: 0px;
-            max-height: 0px;
-            opacity: 0;
-            overflow: hidden;
-            mso-hide: all;
-          "
-        >
-          <!--Add Preheader Text Here (Remove Comment)-->
-          <p>Here is your receipt! Thanks and come again</p>
-        </div>
-        <!-- End Preheader (Remove Comment)-->
-        <!--[if (gte mso 9) | (IE)]>
-        <table
-          width="600"
-          align="center"
-          style="border-spacing: 0; color: #565656"
-          role="presentation"
-        >
-         <tr>
-            <td style="padding; 0">
-      <![endif]-->
-        <!-- ===== Email Content Container ===== -->
+        <!-- ===== Email Content ===== -->
         <table
           width="100%"
-          align="center"
           cellspacing="0"
           cellpadding="0"
           border="0"
-          bgcolor="#fff"
           style="
             font-family: Arial, Helvetica, sans-serif;
             border-spacing: 0;
@@ -101,7 +68,7 @@
           "
           role="presentation"
         >
-          <!-- ===== Content Container ===== -->
+          <!-- ===== Pink Outline ===== -->
           <tr>
             <td>
               <table
@@ -111,15 +78,24 @@
                 cellspacing="0"
                 align="center"
                 border="0"
-                bgcolor="#fbcdc3"
-                style="padding: 20px"
+                style="
+                  padding: 20px;
+                  max-width: 520px;
+                  background-color: #fbcdc3;
+                "
               >
                 <tr>
                   <td>
                     <table
                       width="100%"
-                      style="padding: 20px 20px"
-                      bgcolor="#fff"
+                      cellpadding="0"
+                      cellspacing="0"
+                      border="0"
+                      style="
+                        max-width: 480px;
+                        padding: 20px 20px;
+                        background-color: #fff;
+                      "
                       role="presentation"
                     >
                       <!-- ===== Logo & Header ===== -->
@@ -144,6 +120,7 @@
                       <tr>
                         <td align="center">
                           <h2
+                            class="padding"
                             style="
                               color: #d70f64;
                               text-transform: capitalize;
@@ -164,12 +141,20 @@
                             cellspacing="0"
                             cellpadding="0"
                             border="0"
-                            bgcolor="#fff"
-                            style="padding: 20px"
+                            style="
+                              max-width: 480px;
+                              padding: 20px 0;
+                              background-color: #fff;
+                            "
                             role="presentation"
                           >
                             <tr>
-                              <td width="40%" align="left">
+                              <td
+                                class="info"
+                                width="50%"
+                                align="left"
+                                style="display: inline-; padding-left: 20px"
+                              >
                                 <h3
                                   style="margin: 0; padding: 0; font-size: 15px"
                                 >
@@ -209,16 +194,11 @@
                                 </p>
                               </td>
                               <td
-                                width="20%"
-                                style="
-                                  display: inline-block;
-                                  max-width: 20px;
-                                  width: 100%;
-                                "
+                                class="info"
+                                width="50%"
+                                align="left"
+                                style="padding-left: 20px"
                               >
-                                &nbsp;
-                              </td>
-                              <td width="40%" align="left">
                                 <h3
                                   style="margin: 0; padding: 0; font-size: 15px"
                                 >
@@ -264,6 +244,7 @@
                       <tr>
                         <td>
                           <table
+                            class="padding"
                             width="100%"
                             cellspacing="0"
                             cellpadding="0"
@@ -367,7 +348,6 @@
                         </td>
                       </tr>
                       <!-- ===== End Order Tracking Sections =====-->
-                      <!-- ===== Item Area ===== -->
                       <!-- ===== Grey Container ===== -->
                       <tr>
                         <td>
@@ -504,7 +484,6 @@
                         </td>
                       </tr>
                       <!-- ===== End Order Items ===== -->
-                      <!-- ===== End Item Area ===== -->
                       <!-- ===== HR ===== -->
                       <tr>
                         <td>
@@ -527,7 +506,7 @@
                         </td>
                       </tr>
                       <!-- ===== End HR ===== -->
-                      <!-- ===== Pricing Area ===== ?? 3 Columns -->
+                      <!-- ===== Pricing Area ===== -->
                       <tr>
                         <td>
                           <table
@@ -544,16 +523,19 @@
                               <td width="50%"></td>
                               <td width="25%" align="left">
                                 <p
+                                  class="left"
                                   style="margin: 0; padding: 0; font-size: 13px"
                                 >
                                   Subtotal:
                                 </p>
                                 <p
+                                  class="left"
                                   style="margin: 0; padding: 0; font-size: 13px"
                                 >
                                   Del. Fee:
                                 </p>
                                 <p
+                                  class="left"
                                   style="
                                     font-weight: bold;
                                     margin: 0;
@@ -564,6 +546,7 @@
                                   Total:
                                 </p>
                                 <p
+                                  class="left"
                                   style="margin: 0; padding: 0; font-size: 13px"
                                 >
                                   7% Tax:
@@ -571,16 +554,19 @@
                               </td>
                               <td width="25%" align="left">
                                 <p
+                                  class="right"
                                   style="padding: 0; margin: 0; font-size: 13px"
                                 >
                                   ฿ 449.00
                                 </p>
                                 <p
+                                  class="right"
                                   style="padding: 0; margin: 0; font-size: 13px"
                                 >
                                   ฿ 15.00
                                 </p>
                                 <p
+                                  class="right"
                                   style="padding: 0; margin: 0; font-size: 13px"
                                 >
                                   ฿
@@ -594,6 +580,7 @@
                                   >
                                 </p>
                                 <p
+                                  class="right"
                                   style="padding: 0; margin: 0; font-size: 13px"
                                 >
                                   ฿ 31.43
@@ -603,7 +590,7 @@
                           </table>
                         </td>
                       </tr>
-                      <!-- ===== Pricing Area ===== ?? 3 Columns -->
+                      <!-- ===== Pricing Area ===== -->
                       <!-- ===== FOOTER ===== -->
                       <tr>
                         <td>
@@ -645,17 +632,11 @@
               </table>
             </td>
           </tr>
-          <!-- ===== Content Container ===== -->
+          <!-- ===== Pink Outline ===== -->
         </table>
-        <!-- ===== Email Content Container ===== -->
+        <!-- ===== Email Content ===== -->
       </div>
-      <!-- ===== Drop Shadow ===== -->
-      <!--[if (gte mso 9) | (IE)]>
-    
-            </td>
-          </tr>
-        </table>
-      <![endif]-->
+      <!--===== Drop Shadow ===== -->
     </center>
     <!-- ===== Email Container ===== -->
   </body>
